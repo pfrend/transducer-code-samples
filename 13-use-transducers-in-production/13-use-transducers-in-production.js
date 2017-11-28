@@ -28,7 +28,4 @@ console.log(
   lazyNums.next(),
   lazyNums.next(),
   lazyNums.next(),
-)
-
-
-
+);

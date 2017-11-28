@@ -1,4 +1,4 @@
-import {doubleTheNumber, evenOnly, pushReducer, map, shout, compose, filter} from '../utils';
+import {doubleTheNumber, evenOnly, pushReducer, map, compose, filter} from '../utils';
 
 const doubleMap = map(doubleTheNumber);
 const isEvenFilter = filter(evenOnly);

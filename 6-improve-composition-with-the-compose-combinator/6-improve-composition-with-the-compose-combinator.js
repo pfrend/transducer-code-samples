@@ -1,4 +1,4 @@
-import {pushReducer, filter, map, evenOnly, doubleTheNumber} from "../utils";
+import {filter, map, evenOnly, doubleTheNumber} from "../utils";
 
 const doubleMap = map(doubleTheNumber);
 const isEvenFilter = filter(evenOnly);
@@ -22,4 +22,4 @@ const compose = (...functions) =>
 [1, 2, 3, 4].reduce(
   compose(isNot2Filter, isEvenFilter, doubleMap)(pushReducer),
   [],
-);
+); /*?*/

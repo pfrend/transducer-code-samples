@@ -31,6 +31,6 @@ into(
 
 into(
   {},
-  compose(map(val => ({[val]: val})), filter(isNumber)),
+  compose(filter(isNumber), map(val => ({[val]: val}))),
   [1,2,3,4, 'hello', () => 'world'],
 );

@@ -24,15 +24,3 @@ const pushReducer = (accumulation, value) => {
 };
 
 [1,2,3,4].reduce(isNot2Filter(isEvenFilter(doubleMap(pushReducer))), []);
-
-
-
-
-
-
-
-
-
-
-
-
